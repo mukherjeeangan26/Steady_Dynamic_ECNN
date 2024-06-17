@@ -1,5 +1,6 @@
 # Steady-State and Dynamic Energy Constrained Neural Networks (ECNN)
 MATLAB Codes and Python Notebooks for developing steady-state and dynamic Energy Constrained Neural Network (ECNN) models using noisy transient data
+(All codes will be uploaded by **Jun 25, 2024**)
 
 Author: Angan Mukherjee (am0339@mix.wvu.edu)
 
