@@ -1,4 +1,4 @@
-## Steady-State MCNN Implementation
+## Steady-State ECNN Implementation
 
 The files uploaded in this public repository contain codes for solving the training and forward problems with respect to steady-state ECNNs under all types 
 of error characterizations discussed in the paper. 
@@ -10,7 +10,8 @@ extensions package or simply use Pyomo.
 
 For more details on the respective algorithms and formulations, please refer to the following publication:
 
-**Mukherjee, A.** & Bhattacharyya, D. "*On the Development of Steady-State and Dynamic Mass-Constrained Neural Networks Using Noisy Transient Data*". Comput. Chem. Eng. 108722 (2024). (Revision Submitted)
+**Mukherjee, A.** & Bhattacharyya, D. "*Development of Steady-State and Dynamic Mass and Energy Constrained Neural Networks for Distributed Chemical Systems 
+Using Noisy Transient Data*". Ind. Eng. Chem. Res. (2024) (Revision Submitted)
 
 These codes will be updated in subsequent versions to enhance user friendliness and efficiency. 
 
