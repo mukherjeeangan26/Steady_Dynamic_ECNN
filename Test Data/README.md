@@ -15,8 +15,14 @@ The .xlsx file contains 4 tabs in total. The last tab contains a block-oriented 
 consideration. The first three tabs contain steady-state data for the different types of noise / uncertainties added 
 to the simulated data to generate training data, i.e., no noise (where truth and measurements are the same), constant 
 bias with an additional zero-mean Gaussian noise, and random bias with an additional Gaussian noise distribution, respectively.
-Note that the base case, i.e., the tab named 'NoNoise' represents the dataset obtained from simulation of an appropriate
-first-principles model.
+
+Note that the base (truth) case, i.e., the tab named 'NoNoise' represents the dataset obtained from simulation of an appropriate
+first-principles model. It was also observed that the difference in heat (energy) balance for the 'True Data', i.e., the data 
+containing no noise was not exactly zero in megawatts (MW) scale with respect to the superheater system. The corresponding difference
+in Q (MW) is also provided in the excel spreadsheet with respect to the true data obtained by simulation of the first-principles model.
+Although the specific formulation of the training and forward problems remain independent of the specfic types of constraints imposed, 
+in this work, it is desired to see whether the ECNN models converge at the 'True Data' considered even when trained against noisy transient 
+data. Therefore, the corresponding constraint equations are modified to arrive at the Delta_Q (MW) values calculated with respect to the 'True Data'.
 
 ## Dynamic HX Data
 
@@ -30,6 +36,14 @@ The .xlsx file contains 4 tabs in total. The last tab contains a block-oriented 
 consideration. The first three tabs contain dynamic data for the different types of noise / uncertainties added to the 
 simulated data to generate training data, i.e., no noise (where truth and measurements are the same), time-invariant bias 
 with an additional zero-mean Gaussian noise, and time-varying bias with an additional Gaussian noise distribution, respectively. 
+
+Note that the base (truth) case, i.e., the tab named 'NoNoise' represents the dataset obtained from simulation of an appropriate
+first-principles model. It was also observed that the difference in heat (energy) balance for the 'True Data', i.e., the data 
+containing no noise was not exactly zero in megawatts (MW) scale with respect to the superheater system. The corresponding difference
+in Q (MW) is also provided in the excel spreadsheet with respect to the true data obtained by simulation of the first-principles model.
+Although the specific formulation of the training and forward problems remain independent of the specfic types of constraints imposed, 
+in this work, it is desired to see whether the ECNN models converge at the 'True Data' considered even when trained against noisy transient 
+data. Therefore, the corresponding constraint equations are modified to arrive at the Delta_Q (MW) values calculated with respect to the 'True Data'.
 
 ## Color Code
 
