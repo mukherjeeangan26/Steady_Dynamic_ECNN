@@ -42,7 +42,7 @@ dynamic modeling respectively while the corresponding columns signify the differ
 For the models developed in this work, MATLAB's default optimization solver for constrained optimization problems (i.e., '*fmincon*') seldom led to convergence
 issues, especially during dynamic optimization. Therefore, it is desired to implement Interior Point with Filter line search algorithm (IPOPT) for estimation of
 optimal parameters for the equality constrained network models. Therefore, the IPOPT solver has been implemented through the OPTimization Interface (OPTI) Toolbox 
-for both steady-state and dynamic MCNN. The open-sourced OPTI Toolbox can be accessed at the following link: https://github.com/jonathancurrie/OPTI
+for both steady-state and dynamic ECNN. The open-sourced OPTI Toolbox can be accessed at the following link: https://github.com/jonathancurrie/OPTI
 
 The user requries to install OPTI in the MATLAB window by running the **opti_Install.m** and following recommended specifications. 
 
