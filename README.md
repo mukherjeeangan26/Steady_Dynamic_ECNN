@@ -3,7 +3,7 @@ MATLAB Codes and Python Notebooks for developing steady-state and dynamic Energy
 
 Author: Angan Mukherjee (am0339@mix.wvu.edu)
 
-Last Page Update: Jun 24, 2024
+Last Page Update: Jun 26, 2024
 
 # Announcement
 
