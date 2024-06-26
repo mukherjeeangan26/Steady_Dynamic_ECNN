@@ -15,6 +15,8 @@ The .xlsx file contains 4 tabs in total. The last tab contains a block-oriented 
 consideration. The first three tabs contain steady-state data for the different types of noise / uncertainties added 
 to the simulated data to generate training data, i.e., no noise (where truth and measurements are the same), constant 
 bias with an additional zero-mean Gaussian noise, and random bias with an additional Gaussian noise distribution, respectively.
+Note that the base case, i.e., the tab named 'NoNoise' represents the dataset obtained from simulation of an appropriate
+first-principles model.
 
 ## Dynamic HX Data
 
