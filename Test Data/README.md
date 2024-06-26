@@ -22,7 +22,8 @@ containing no noise was not exactly zero in megawatts (MW) scale with respect to
 in Q (MW) is also provided in the excel spreadsheet with respect to the true data obtained by simulation of the first-principles model.
 Although the specific formulation of the training and forward problems remain independent of the specfic types of constraints imposed, 
 in this work, it is desired to see whether the ECNN models converge at the 'True Data' considered even when trained against noisy transient 
-data. Therefore, the corresponding constraint equations are modified to arrive at the Delta_Q (MW) values calculated with respect to the 'True Data'.
+data. Therefore, the corresponding constraint equations are modified to arrive at the Delta_Q_True (MW) values calculated with respect to 
+the 'True Data'.
 
 ## Dynamic HX Data
 
@@ -43,7 +44,8 @@ containing no noise was not exactly zero in megawatts (MW) scale with respect to
 in Q (MW) is also provided in the excel spreadsheet with respect to the true data obtained by simulation of the first-principles model.
 Although the specific formulation of the training and forward problems remain independent of the specfic types of constraints imposed, 
 in this work, it is desired to see whether the ECNN models converge at the 'True Data' considered even when trained against noisy transient 
-data. Therefore, the corresponding constraint equations are modified to arrive at the Delta_Q (MW) values calculated with respect to the 'True Data'.
+data. Therefore, the corresponding constraint equations are modified to arrive at the Delta_Q_True (MW) values calculated with respect to 
+the 'True Data'.
 
 ## Color Code
 
