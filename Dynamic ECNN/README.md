@@ -20,7 +20,6 @@ ECNN applications that can be readily used by other users.
 
 For more details about the respective algorithms, please refer to the following publication:
 
-**Mukherjee, A.** & Bhattacharyya, D. "*On the Development of Steady-State and Dynamic Mass-Constrained Neural Networks Using Noisy Transient Data*". Comput. Chem. Eng. 108722 (2024).
-
-Avaiable online at: https://doi.org/10.1016/j.compchemeng.2024.108722
+**Mukherjee, A.** & Bhattacharyya, D. "*Development of Steady-State and Dynamic Mass and Energy Constrained Neural Networks for Distributed Chemical Systems 
+Using Noisy Transient Data*". Ind. Eng. Chem. Res. (2024) (Revision Submitted)
 
