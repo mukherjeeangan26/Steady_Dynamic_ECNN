@@ -1,4 +1,4 @@
-## Dynamic MCNN Implementation
+## Dynamic ECNN Implementation
 
 This public repository contains codes for developing optimal hybrid series or parallel ECNN models for dynamic optimization of chemical systems under noisy transient data. 
 
