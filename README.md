@@ -15,7 +15,9 @@ This public repository contains MATLAB codes and Python notebooks for developing
 chemical systems using noisy transient data. The corresponding publication for this work is:
 
 **Mukherjee, A.** & Bhattacharyya, D. "*Development of Steady-State and Dynamic Mass and Energy Constrained Neural Networks for Distributed Chemical Systems 
-Using Noisy Transient Data*". Ind. Eng. Chem. Res. (Under Review)
+Using Noisy Transient Data*". Ind. Eng. Chem. Res. (2024)
+
+Available online at: https://pubs.acs.org/doi/10.1021/acs.iecr.4c01429
 
 These codes will be updated in subsequent versions to enhance robustness of the proposed algorithms and user friendliness.
 
